@@ -1,6 +1,8 @@
 nettle (3.2-1~precise0+exo1) precise; urgency=medium
 
   * Backport for Precise.
+    - Remove use of dir_to_symlink. We don't care about seamless upgrade
+      for the debug package.
 
  -- Vincent Bernat <bernat@debian.org>  Thu, 14 Apr 2016 22:11:02 +0200
 
